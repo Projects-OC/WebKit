@@ -1,0 +1,6 @@
+framework module MFWebKit {
+  umbrella header "MFWebKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

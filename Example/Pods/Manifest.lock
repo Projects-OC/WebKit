@@ -1,0 +1,16 @@
+PODS:
+  - MFWebKit (0.1.0)
+
+DEPENDENCIES:
+  - MFWebKit (from `../`)
+
+EXTERNAL SOURCES:
+  MFWebKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MFWebKit: 90bb6d4d879abfc4ad946d58f1cca47506a6bc05
+
+PODFILE CHECKSUM: 70343cccc5c9d455bfa5e78124793707ac52bab6
+
+COCOAPODS: 1.5.0
