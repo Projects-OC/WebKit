@@ -1,7 +1,7 @@
 {
   "name": "MFWebKit",
-  "version": "0.1.1",
-  "summary": "A WebView Controller of MFWebKit.",
+  "version": "0.2.0",
+  "summary": "WebKit组件.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Projects-OC/WebKit",
   "license": {
@@ -12,8 +12,8 @@
     "mftechs": "1032351062@qq.com"
   },
   "source": {
-    "git": "/Users/mac/Desktop/MF/WebKit",
-    "tag": "0.1.1"
+    "git": "https://github.com/Projects-OC/WebKit.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

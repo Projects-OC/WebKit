@@ -37,7 +37,7 @@
     _webView.navigationDelegate = self;
     [self.view addSubview:_webView];
     
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:_url];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:_url cachePolicy:_cachePolicy timeoutInterval:15];
     [_webView loadRequest:request];
     [_webView addObserver:self forKeyPath:@"loading" options:NSKeyValueObservingOptionNew context:nil];
     [_webView addObserver:self forKeyPath:@"title" options:NSKeyValueObservingOptionNew context:nil];

@@ -13,6 +13,11 @@
 @property (nonatomic,copy) NSURL *url;
 
 /**
+ 缓存策略
+ */
+@property (nonatomic,assign) NSURLRequestCachePolicy cachePolicy;
+
+/**
  是否导航栏，默认不显示
  */
 @property (nonatomic,assign) BOOL isNavigationBar;
