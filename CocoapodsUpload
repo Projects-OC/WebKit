@@ -1,4 +1,6 @@
 #!/bin/sh
+#更改了podspec中的版本号，需要pod install，之后再执行脚本
+echo "更改了podspec中的版本号，需要pod install，之后再执行脚本"
 
 echo -n "enter the version : "
 read version 

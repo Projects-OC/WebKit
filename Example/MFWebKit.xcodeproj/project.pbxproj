@@ -293,7 +293,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MFWebKit_Example/Pods-MFWebKit_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MFWebKit_Example/Pods-MFWebKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MFWebKit/MFWebKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -302,7 +302,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFWebKit_Example/Pods-MFWebKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MFWebKit_Example/Pods-MFWebKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A93B5E1878CF7F46E8ADA7A3 /* [CP] Check Pods Manifest.lock */ = {

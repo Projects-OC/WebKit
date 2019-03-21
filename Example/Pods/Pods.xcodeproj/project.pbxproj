@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44E987128AC6BE982454196C8A651888 /* MFWebKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482D9505A93FE6E8399CDEEFBA773C5 /* MFWebKit-dummy.m */; };
-		96F51CF253F7E8B609AE28190A569E40 /* Pods-MFWebKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 333F7F550AD5BBF20EB27065A8FBF987 /* Pods-MFWebKit_Example-dummy.m */; };
+		44E987128AC6BE982454196C8A651888 /* MFWebKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0F278DAFC55833A16C2F640D7B89B /* MFWebKit-dummy.m */; };
+		96F51CF253F7E8B609AE28190A569E40 /* Pods-MFWebKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA786FC38468729D9BE3E22A5238B97 /* Pods-MFWebKit_Example-dummy.m */; };
 		A1D68EBEF83185CDF726DD308B227CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		B9D156FDE2AAE8F42B32F12A71766A36 /* MFWebKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F01565D11AF9EB39B9B4D5F353E6D7 /* MFWebKitViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C793C504B52B914E543663F8BDB65560 /* Pods-MFWebKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1262BCEF2D60B5764AFE713082F8934 /* Pods-MFWebKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C793C504B52B914E543663F8BDB65560 /* Pods-MFWebKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1843AB97540F81127654D76D53BF58 /* Pods-MFWebKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D61B3F29F79678E861A5B591B7EABD5A /* MFWebKitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E5A2D2487D9BF56BD903DFF842B26D /* MFWebKitViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1C765D683A496BA84DDC7122E090335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		F2A40D3B4DEEA294148623293C536575 /* MFWebKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2C9C230F4DE7178121736BDC0C70AF /* MFWebKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A40D3B4DEEA294148623293C536575 /* MFWebKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B5CBB74219F47307C8EE2EC430FF26 /* MFWebKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,31 +28,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1715D4A84C615580BAB7B80730DC8DD9 /* MFWebKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MFWebKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2924833E1C2C31696B64C71A89DF4483 /* Pods-MFWebKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MFWebKit_Example-resources.sh"; sourceTree = "<group>"; };
-		333F7F550AD5BBF20EB27065A8FBF987 /* Pods-MFWebKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MFWebKit_Example-dummy.m"; sourceTree = "<group>"; };
 		39DBC15AF3763B1D9F1A59390105D424 /* Pods_MFWebKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MFWebKit_Example.framework; path = "Pods-MFWebKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C1FCD275F5D0C5FCC12EC9C2DD0AC91 /* MFWebKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFWebKit.xcconfig; sourceTree = "<group>"; };
-		3F2F8C4997B5587DF6A0DEC134E91D1A /* MFWebKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFWebKit-prefix.pch"; sourceTree = "<group>"; };
-		4E2C9C230F4DE7178121736BDC0C70AF /* MFWebKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFWebKit-umbrella.h"; sourceTree = "<group>"; };
-		4F593FD32E9CFB2B16FC6D0F76C4CAB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5179DC64DE7E11F9560DCD023996BB8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5482D9505A93FE6E8399CDEEFBA773C5 /* MFWebKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MFWebKit-dummy.m"; sourceTree = "<group>"; };
-		5FA15DC48933330F524E72323D340348 /* Pods-MFWebKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFWebKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		67F451ECC3C8E8C186F955D9F28899B4 /* Pods-MFWebKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFWebKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8595FA412889074BB5652E6FC98CDF0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B05837A06217DDD7BC9275B46561EE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6BAF064B0B052844B3446033BD9BC11 /* Pods-MFWebKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MFWebKit_Example.modulemap"; sourceTree = "<group>"; };
+		48D923451CBC0A2B21F674D1ECDC476F /* MFWebKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFWebKit-prefix.pch"; sourceTree = "<group>"; };
+		6364732498A77448ED395D4AF1B2A08C /* MFWebKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFWebKit.xcconfig; sourceTree = "<group>"; };
+		64B5CBB74219F47307C8EE2EC430FF26 /* MFWebKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFWebKit-umbrella.h"; sourceTree = "<group>"; };
+		6C6C932ABA9CA739CCC722363519143B /* Pods-MFWebKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MFWebKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78C0F278DAFC55833A16C2F640D7B89B /* MFWebKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MFWebKit-dummy.m"; sourceTree = "<group>"; };
+		8C99C27E2BED91DECDB0E42DCD12CCCD /* MFWebKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MFWebKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E1843AB97540F81127654D76D53BF58 /* Pods-MFWebKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MFWebKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		9879986A6D58F2011A457851EB8348FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9CA786FC38468729D9BE3E22A5238B97 /* Pods-MFWebKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MFWebKit_Example-dummy.m"; sourceTree = "<group>"; };
+		9F09FF8887E6A17F6EF7443A98410210 /* MFWebKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MFWebKit-Info.plist"; sourceTree = "<group>"; };
+		A1208814161AB3DFA049883D930E77B4 /* Pods-MFWebKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFWebKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC618CC32AF9B357EE03CEA91EE5B6AE /* MFWebKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MFWebKit.framework; path = MFWebKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E5A2D2487D9BF56BD903DFF842B26D /* MFWebKitViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFWebKitViewController.h; path = MFWebKit/Classes/MFWebKitViewController.h; sourceTree = "<group>"; };
-		C491683D859F7F748F3E160E2A1F7E6C /* Pods-MFWebKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFWebKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D23747B48D9AD157FF1082A075007FD0 /* Pods-MFWebKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MFWebKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D0064B7A54868231670647090BE03341 /* Pods-MFWebKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFWebKit_Example-Info.plist"; sourceTree = "<group>"; };
 		D3F01565D11AF9EB39B9B4D5F353E6D7 /* MFWebKitViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFWebKitViewController.m; path = MFWebKit/Classes/MFWebKitViewController.m; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E1262BCEF2D60B5764AFE713082F8934 /* Pods-MFWebKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MFWebKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		E33EB4297D4AE328691A4928F00E62FA /* Pods-MFWebKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MFWebKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EA5B8160930F44FA530F9C8B479DDE20 /* MFWebKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MFWebKit.modulemap; sourceTree = "<group>"; };
+		DA53C00181AA4477D790447171513857 /* MFWebKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MFWebKit.modulemap; sourceTree = "<group>"; };
+		E4833934A5ACEE1C7DA3BF4D8BFA28E5 /* Pods-MFWebKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFWebKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6D3A2D4F66C55DB36456ECD43BED426 /* Pods-MFWebKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MFWebKit_Example.modulemap"; sourceTree = "<group>"; };
+		E94D178A92D704ED9AAD14E76932F0BD /* Pods-MFWebKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MFWebKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EE825199593B6E62F2FB93804CAFCC46 /* Pods-MFWebKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFWebKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F628789D51215316B6A8D288D91D132D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,65 +90,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5C80AADEFB39285ACE99ABA666DE9F31 /* Pods-MFWebKit_Example */ = {
-			isa = PBXGroup;
-			children = (
-				8595FA412889074BB5652E6FC98CDF0B /* Info.plist */,
-				A6BAF064B0B052844B3446033BD9BC11 /* Pods-MFWebKit_Example.modulemap */,
-				E33EB4297D4AE328691A4928F00E62FA /* Pods-MFWebKit_Example-acknowledgements.markdown */,
-				5FA15DC48933330F524E72323D340348 /* Pods-MFWebKit_Example-acknowledgements.plist */,
-				333F7F550AD5BBF20EB27065A8FBF987 /* Pods-MFWebKit_Example-dummy.m */,
-				D23747B48D9AD157FF1082A075007FD0 /* Pods-MFWebKit_Example-frameworks.sh */,
-				2924833E1C2C31696B64C71A89DF4483 /* Pods-MFWebKit_Example-resources.sh */,
-				E1262BCEF2D60B5764AFE713082F8934 /* Pods-MFWebKit_Example-umbrella.h */,
-				67F451ECC3C8E8C186F955D9F28899B4 /* Pods-MFWebKit_Example.debug.xcconfig */,
-				C491683D859F7F748F3E160E2A1F7E6C /* Pods-MFWebKit_Example.release.xcconfig */,
-			);
-			name = "Pods-MFWebKit_Example";
-			path = "Target Support Files/Pods-MFWebKit_Example";
-			sourceTree = "<group>";
-		};
-		653A4A87205E6A71FC23B8FB798DD537 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C80AADEFB39285ACE99ABA666DE9F31 /* Pods-MFWebKit_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
 				259494D4A7DE5CC887E5542558845292 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F905897CC1EAF0202171A13726997F67 /* Products */,
-				653A4A87205E6A71FC23B8FB798DD537 /* Targets Support Files */,
+				FC8829D5060EA00D807310402A414545 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9DBC5739B44AF5A710D2F95D54209B9C /* Pod */ = {
+		7F1DC71360AEA75C6C07DE962C735AEF /* Pods-MFWebKit_Example */ = {
 			isa = PBXGroup;
 			children = (
-				5179DC64DE7E11F9560DCD023996BB8E /* LICENSE */,
-				1715D4A84C615580BAB7B80730DC8DD9 /* MFWebKit.podspec */,
-				8B05837A06217DDD7BC9275B46561EE8 /* README.md */,
+				E6D3A2D4F66C55DB36456ECD43BED426 /* Pods-MFWebKit_Example.modulemap */,
+				6C6C932ABA9CA739CCC722363519143B /* Pods-MFWebKit_Example-acknowledgements.markdown */,
+				E4833934A5ACEE1C7DA3BF4D8BFA28E5 /* Pods-MFWebKit_Example-acknowledgements.plist */,
+				9CA786FC38468729D9BE3E22A5238B97 /* Pods-MFWebKit_Example-dummy.m */,
+				E94D178A92D704ED9AAD14E76932F0BD /* Pods-MFWebKit_Example-frameworks.sh */,
+				D0064B7A54868231670647090BE03341 /* Pods-MFWebKit_Example-Info.plist */,
+				8E1843AB97540F81127654D76D53BF58 /* Pods-MFWebKit_Example-umbrella.h */,
+				EE825199593B6E62F2FB93804CAFCC46 /* Pods-MFWebKit_Example.debug.xcconfig */,
+				A1208814161AB3DFA049883D930E77B4 /* Pods-MFWebKit_Example.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A20800B65096612841D54DD334F99645 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4F593FD32E9CFB2B16FC6D0F76C4CAB9 /* Info.plist */,
-				EA5B8160930F44FA530F9C8B479DDE20 /* MFWebKit.modulemap */,
-				3C1FCD275F5D0C5FCC12EC9C2DD0AC91 /* MFWebKit.xcconfig */,
-				5482D9505A93FE6E8399CDEEFBA773C5 /* MFWebKit-dummy.m */,
-				3F2F8C4997B5587DF6A0DEC134E91D1A /* MFWebKit-prefix.pch */,
-				4E2C9C230F4DE7178121736BDC0C70AF /* MFWebKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MFWebKit";
+			name = "Pods-MFWebKit_Example";
+			path = "Target Support Files/Pods-MFWebKit_Example";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -160,13 +126,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D276D3FBAA4BE17389C1289654F34030 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA53C00181AA4477D790447171513857 /* MFWebKit.modulemap */,
+				6364732498A77448ED395D4AF1B2A08C /* MFWebKit.xcconfig */,
+				78C0F278DAFC55833A16C2F640D7B89B /* MFWebKit-dummy.m */,
+				9F09FF8887E6A17F6EF7443A98410210 /* MFWebKit-Info.plist */,
+				48D923451CBC0A2B21F674D1ECDC476F /* MFWebKit-prefix.pch */,
+				64B5CBB74219F47307C8EE2EC430FF26 /* MFWebKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MFWebKit";
+			sourceTree = "<group>";
+		};
 		E6F24E7A82F9438A93FF906A53D9B5B7 /* MFWebKit */ = {
 			isa = PBXGroup;
 			children = (
 				C2E5A2D2487D9BF56BD903DFF842B26D /* MFWebKitViewController.h */,
 				D3F01565D11AF9EB39B9B4D5F353E6D7 /* MFWebKitViewController.m */,
-				9DBC5739B44AF5A710D2F95D54209B9C /* Pod */,
-				A20800B65096612841D54DD334F99645 /* Support Files */,
+				FD8908F8FCECCDA1DFFA38E2101B8517 /* Pod */,
+				D276D3FBAA4BE17389C1289654F34030 /* Support Files */,
 			);
 			name = MFWebKit;
 			path = ../..;
@@ -179,6 +159,24 @@
 				39DBC15AF3763B1D9F1A59390105D424 /* Pods_MFWebKit_Example.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8829D5060EA00D807310402A414545 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DC71360AEA75C6C07DE962C735AEF /* Pods-MFWebKit_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD8908F8FCECCDA1DFFA38E2101B8517 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9879986A6D58F2011A457851EB8348FB /* LICENSE */,
+				8C99C27E2BED91DECDB0E42DCD12CCCD /* MFWebKit.podspec */,
+				F628789D51215316B6A8D288D91D132D /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,9 +313,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E25B5932CBE0C2058B5E3E3C829DB14 /* Release */ = {
+		5CC9D6CDDFC79EAA8117F5F1C1D4B330 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C491683D859F7F748F3E160E2A1F7E6C /* Pods-MFWebKit_Example.release.xcconfig */;
+			baseConfigurationReference = EE825199593B6E62F2FB93804CAFCC46 /* Pods-MFWebKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -329,7 +327,40 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MFWebKit_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MFWebKit_Example/Pods-MFWebKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MFWebKit_Example/Pods-MFWebKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75A3F24253C4FAF782788D75755CA913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1208814161AB3DFA049883D930E77B4 /* Pods-MFWebKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MFWebKit_Example/Pods-MFWebKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -349,11 +380,10 @@
 			};
 			name = Release;
 		};
-		619FDC8A359D8A7EB18CFAB92C5A06EA /* Debug */ = {
+		949A505593C57F871DE61FFED28384BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67F451ECC3C8E8C186F955D9F28899B4 /* Pods-MFWebKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 6364732498A77448ED395D4AF1B2A08C /* MFWebKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -363,26 +393,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MFWebKit_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MFWebKit/MFWebKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MFWebKit/MFWebKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MFWebKit_Example/Pods-MFWebKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/MFWebKit/MFWebKit.modulemap";
+				PRODUCT_MODULE_NAME = MFWebKit;
+				PRODUCT_NAME = MFWebKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,8 +443,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -444,7 +471,7 @@
 			};
 			name = Release;
 		};
-		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -476,8 +503,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -510,9 +535,9 @@
 			};
 			name = Debug;
 		};
-		AFE749D74CF5DA4D6284ECD20FF6A511 /* Debug */ = {
+		F47775592980FCE37FC4619383BFED33 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C1FCD275F5D0C5FCC12EC9C2DD0AC91 /* MFWebKit.xcconfig */;
+			baseConfigurationReference = 6364732498A77448ED395D4AF1B2A08C /* MFWebKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -524,7 +549,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/MFWebKit/MFWebKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MFWebKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/MFWebKit/MFWebKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -540,45 +565,14 @@
 			};
 			name = Debug;
 		};
-		E7A2E587B42614C96AB341268702BB7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C1FCD275F5D0C5FCC12EC9C2DD0AC91 /* MFWebKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MFWebKit/MFWebKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MFWebKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MFWebKit/MFWebKit.modulemap";
-				PRODUCT_MODULE_NAME = MFWebKit;
-				PRODUCT_NAME = MFWebKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A73625DEBD810B78234FA1958C191C8C /* Debug */,
-				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -586,8 +580,8 @@
 		A53255A0F4813C49967FB224E02A2835 /* Build configuration list for PBXNativeTarget "MFWebKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFE749D74CF5DA4D6284ECD20FF6A511 /* Debug */,
-				E7A2E587B42614C96AB341268702BB7A /* Release */,
+				F47775592980FCE37FC4619383BFED33 /* Debug */,
+				949A505593C57F871DE61FFED28384BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -595,8 +589,8 @@
 		B92A7182053D8D601BA95A7BDC459317 /* Build configuration list for PBXNativeTarget "Pods-MFWebKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				619FDC8A359D8A7EB18CFAB92C5A06EA /* Debug */,
-				1E25B5932CBE0C2058B5E3E3C829DB14 /* Release */,
+				5CC9D6CDDFC79EAA8117F5F1C1D4B330 /* Debug */,
+				75A3F24253C4FAF782788D75755CA913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
