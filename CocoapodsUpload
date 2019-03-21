@@ -16,4 +16,4 @@ echo "**************begin push origin****************"
 git push origin master
 
 echo "**************begin trunk push*****************"
-pod trunk push --verbose --allow-warnings
+pod trunk push MFWebKit.podspec --verbose --allow-warnings
