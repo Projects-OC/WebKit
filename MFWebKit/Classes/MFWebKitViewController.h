@@ -13,7 +13,7 @@
 @property (nonatomic,copy) NSURL *url;
 
 /**
- 缓存策略
+ 缓存策略，默认：NSURLRequestUseProtocolCachePolicy
  */
 @property (nonatomic,assign) NSURLRequestCachePolicy cachePolicy;
 
