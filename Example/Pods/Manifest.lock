@@ -1,23 +1,16 @@
 PODS:
-  - Masonry (1.1.0)
-  - MFWebKit (0.2.3):
-    - Masonry
+  - MFWebKit (0.2.5)
 
 DEPENDENCIES:
   - MFWebKit (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Masonry
 
 EXTERNAL SOURCES:
   MFWebKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MFWebKit: 07c628f58633b0136088e3e3e21e36ad0f9d48d3
+  MFWebKit: 7d9caf39dfa22da21f08631a50559aa136e31c4b
 
 PODFILE CHECKSUM: 70343cccc5c9d455bfa5e78124793707ac52bab6
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.5.3

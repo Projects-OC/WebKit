@@ -8,8 +8,6 @@
 
 #import "MFWebKitViewController.h"
 #import <WebKit/WebKit.h>
-//#import <Masonry/Masonry.h>
-#import "Masonry.h"
 
 #define mfWidth ([UIScreen mainScreen].bounds.size.width)
 #define mfHeight ([UIScreen mainScreen].bounds.size.height)
@@ -29,6 +27,20 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     self.navigationController.navigationBar.hidden = !_isNavigationBar;
+    
+    //如果要求不是自动旋转情况
+    if (!_isAutorotate) {
+        NSNumber *ori=[[UIDevice currentDevice] valueForKey:@"orientation"];
+        //在旋转屏幕状态下，启动程序，把当前设备方向更改为竖直
+        if(ori.intValue != UIDeviceOrientationPortrait){
+            NSNumber *orientation = [NSNumber numberWithInt:UIDeviceOrientationPortrait];
+            [[UIDevice currentDevice] setValue:orientation forKey:@"orientation"];
+            
+            CGFloat width = [UIScreen mainScreen].bounds.size.width;
+            CGFloat height = [UIScreen mainScreen].bounds.size.height;
+            _webView.frame = CGRectMake(0, 0, width, height);
+        }
+    }
 }
 
 - (void)viewDidLoad {
@@ -38,15 +50,38 @@
     _webView.UIDelegate = self;
     _webView.navigationDelegate = self;
     [self.view addSubview:_webView];
-    [_webView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
-    }];
     
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:_url cachePolicy:_cachePolicy timeoutInterval:15];
     [_webView loadRequest:request];
     [_webView addObserver:self forKeyPath:@"loading" options:NSKeyValueObservingOptionNew context:nil];
     [_webView addObserver:self forKeyPath:@"title" options:NSKeyValueObservingOptionNew context:nil];
     [_webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(statusBarOrientationChanged:) name:UIApplicationDidChangeStatusBarOrientationNotification object:nil];
+}
+
+- (BOOL)shouldAutorotate {
+    if (_isAutorotate) {
+        return YES;
+    }
+    return NO;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    if (_isAutorotate) {
+        return UIInterfaceOrientationMaskAllButUpsideDown;
+    }
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+- (void)statusBarOrientationChanged:(NSNotification *)noti {
+    if (_isAutorotate) {
+        CGFloat width = [UIScreen mainScreen].bounds.size.width;
+        CGFloat height = [UIScreen mainScreen].bounds.size.height;
+        _webView.frame = CGRectMake(0, 0, width, height);
+    } else {
+        [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationPortrait animated:NO];
+    }
 }
 
 - (WKWebViewConfiguration *)webConfig{
@@ -133,6 +168,8 @@
     [_webView removeObserver:self forKeyPath:@"loading" context:nil];
     [_webView removeObserver:self forKeyPath:@"title" context:nil];
     [_webView removeObserver:self forKeyPath:@"estimatedProgress" context:nil];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationDidChangeStatusBarOrientationNotification object:nil];
 }
 
 @end

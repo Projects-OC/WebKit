@@ -18,6 +18,11 @@
 @property (nonatomic,assign) NSURLRequestCachePolicy cachePolicy;
 
 /**
+ 是否支持自动旋转，默认：程序跟随设备方向自动旋转，NO：只是竖直方向显示
+ */
+@property (nonatomic,assign) BOOL isAutorotate;
+
+/**
  是否导航栏，默认不显示
  */
 @property (nonatomic,assign) BOOL isNavigationBar;
