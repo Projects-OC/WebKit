@@ -8,6 +8,8 @@
 
 #import "MFWebKitViewController.h"
 #import <WebKit/WebKit.h>
+//#import <Masonry/Masonry.h>
+#import "Masonry.h"
 
 #define mfWidth ([UIScreen mainScreen].bounds.size.width)
 #define mfHeight ([UIScreen mainScreen].bounds.size.height)
@@ -36,6 +38,9 @@
     _webView.UIDelegate = self;
     _webView.navigationDelegate = self;
     [self.view addSubview:_webView];
+    [_webView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
     
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:_url cachePolicy:_cachePolicy timeoutInterval:15];
     [_webView loadRequest:request];
