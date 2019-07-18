@@ -9,7 +9,7 @@ To run the example project, clone the repo, and run pod install from the Example
 
 # Installation
 
-BZLib is available through CocoaPods. To install it, simply add the following line to your Podfile:
+MFWebKit is available through CocoaPods. To install it, simply add the following line to your Podfile:
 
 
 pod "MFWebKit"
@@ -21,4 +21,4 @@ mf,
 
 License
 
-BZLib is available under the MIT license. See the LICENSE file for more info.
+MFWebKit is available under the MIT license. See the LICENSE file for more info.
